@@ -1,0 +1,29 @@
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        title Login 
+        link(rel="stylesheet" href="../assets/styles/account.css")
+        link(rel="stylesheet" href="../assets/styles/reset.css")
+    body 
+    head
+        link(rel="stylesheet" href="../styles/account.css")
+        link(rel="stylesheet" href="../assets/scss/reset.css")
+    body
+        .account--bg
+            .account--block
+                form.account--block-form
+                    img.account--logo-mobile(src="../assets/img/academy-logo.svg")
+                    h1.login Log in
+                    button.main.google Log in with Google
+                    h2 Or continue with
+                    label(for="email") Email Address
+                        input#email(type="email" placeholder="Type your email address" required)
+                    label.distance(for="password") Password 
+                        input#password(type="password" placeholder="Type your password" required)
+                    button.forgot Forgot your password?
+                    button.main.log-in Log in
+                    p.login--distance New user? 
+                        button.sign-up Sign up
+                img.account--logo(src="../assets/img/academy-logo.svg")
